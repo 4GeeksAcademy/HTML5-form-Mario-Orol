@@ -1,0 +1,11 @@
+/* Set the default circle (unchecked state) to white */
+.btn-check:not(:checked) + .btn-outline-secondary {
+    background-color: white;
+    border-color: #adb5bd; /* Bootstrap secondary color border */
+}
+
+/* Set the active (checked) circle to secondary */
+.btn-check:checked + .btn-outline-secondary {
+    background-color: #6c757d; /* Bootstrap secondary background color */
+    border-color: #6c757d; /* Match border to secondary */
+}
